@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{ 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Parte 1 "Cabeza"*/
+.sub_cabecera{
+    display: flex;
+}
+.logo_name{
+    width: 50%;
+    height: 70px;
+    display: flex;
+}
+.idioma{
+    width: 50%;
+    height: 70px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin: 8px 15px 8px 8px;
+    border: black 1px solid;
+}
+.botones{
+    float: right;
+    margin: 8px 20px 0 0;
+}
+.link{
+    float: right;
+    margin: 50px -100px 0 0;
+}
+.search-box{/*CAJA*/
+    position: absolute;
+    top: 70px;
+    left: 619px;
+    width: 747px;/*revisar*/
+    height: 58px;
+    padding: 0px;
+    background: #092327;
+    display: flex;
+}
+.search-btn{/*BOTON DE BUSQUEDA*/
+    color: #ffffff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0e0536;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+}
+.search-btn:hover{
+    background: #24e2ff;/*DETALLE*/
+}
+.search-txt{ /*CAJA DE TEXTO*/
+    width: 40%;/*revisar*/
+    height: 40%;
+    border: none;
+    background: #ffffff88;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 16px;
+    margin-top: 8px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;/*desplace despues de media hora*/
+}
+/*Parte 2 "Cabezal"*/
+header{
+    width: 54%;
+    height: 58px;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+/*Parte 2 "CUERPO"*/
+.cuerpo{
+width: 100%;
+height:auto;
+}
+.cuadro_1{
+    width: 100%;
+    height: 300px;
+}
+.blanco_1{
+    width: 100%;
+    height: 10px;
+}
+.centro_1{
+    width: 100%;
+    height: 280px;
+    margin-top: 10px;
+}
+.img_2{
+    width: 100%;
+    height: 260px;
+    border: black 1px solid;
+}
+.blanco_2{
+    width: 100%;
+    height: 10px;
+}
+.cuadro_2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.cuadro_2_1{
+    width: 80%;
+    height: 700px;
+    padding: 20px;
+}
+.cuadrado_1{
+    width: 95%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: black 2px solid;
+}
+.titulo_1{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.titulo_2{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.titulo_3{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}.titulo_4{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.card{
+    padding: 8px;
+}
+.video{
+    margin: -16px 0 0 15px;
+}
+.boton_1{
+    margin: 10px 102px;
+    width: 250px;
+    height: 50px;
+}
+.boton_2{
+    width: 130px;
+    height: 30px;
+}
+.cuadrado_2{
+    width: 90%;
+    margin-top: 15px;
+}
+.cuadro_2_2{
+    width: 20%;
+    height: 700px;
+    padding: 20px;
+}
+.cuadro_2_3{
+    width: 90%;
+    height: 210px;
+    border: black 2px solid;
+}
+.blanco_3{
+    width: 90%;
+    height: 8px;
+}
+.cuadro_2_4{
+    width: 90%;
+    height: 300px;
+    border: black 2px solid;
+}
+.navegador{
+    width: 95%;
+    height: 120px;
+}
+.img_3{
+    width: 95%;
+    height: 120px;
+    margin: 15px 0 0 -12px;
+}
+/*Parte 2 "Pie"*/
+.barrita{
+    margin-bottom: 20px;
+    height: 10px;
+    background-color: crimson;
+}
+footer {
+    margin-top: 180px;
+}
+footer a{
+    width: 100%;
+    background: #202020;
+    color: white;
+    font-size: 12px;
+    
+}
